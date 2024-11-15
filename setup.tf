@@ -60,7 +60,7 @@ resource "aws_route_table_association" "subnet_association" {
 }
 
 #Create SG for allowing TCP/80 & TCP/22
-resource "aws_security_group" "sg" {
+resource "aws_security_group" "sg-app-Monitoring" {
   name        = "sg"
   description = "Allow TCP/80 & TCP/22"
   vpc_id      = aws_vpc.vpc.id
