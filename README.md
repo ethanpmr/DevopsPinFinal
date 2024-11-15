@@ -1,4 +1,4 @@
-Pasos para probar el Pipiline
+Pasos para probar el Pipiline /n
 1.Clonar repo
 2.agregar llaves con acceso de administrador de AWS en el vaul de Github
 3.aplicar cambios en la rama Test
