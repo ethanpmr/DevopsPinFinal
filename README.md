@@ -1,12 +1,13 @@
 Pasos para probar el Pipiline
 
 1.Clonar repo
+
 2.agregar llaves con acceso de administrador de AWS en el vaul de Github
 
 3.aplicar cambios en la rama Test
 
 4. aplicar pull request , cuando este se aplica corre el flujo del github action el cual tiene 2 pasos una primera
-etapa en la que hace una terraform plan y valida que este ok , una vez este esta ok corre el gitaction para aplicar el terraform y hace el despliegue
+   etapa en la que hace una terraform plan y valida que este ok , una vez este esta ok corre el gitaction para aplicar el terraform y hace el despliegue
 
 5.aqui debes abrir la VM y entrar por SSH por ssh conect y correr el comando docker network inspect monitoring
 
